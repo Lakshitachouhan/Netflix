@@ -1,0 +1,297 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-container{
+    background-image: url(/IN-en-20230710-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(8, 8, 34);
+}
+nav{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 40px;
+
+
+}
+nav span button{
+    width: 100px;
+    height: 40px;
+    color:white;
+    background-color: red;
+    border: none;
+    font-weight: 600;
+    border-radius: 5px;
+
+
+
+}
+#englishbtn{
+    background-color: transparent;
+    border: 1px solid white;
+}
+.container{
+    
+    height:auto;
+    width: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 150px;
+}
+.container h1{
+    padding-bottom:20px;
+    font-size: 50px;
+
+}
+.container h6{
+    font-size: 25px;
+    padding-bottom: 20px;
+    padding-left: 170px;
+}
+.container p{
+    font-size: 20px;
+    padding-left: 50px;
+    
+}
+.container span{
+    padding-right: 100px;
+}
+.container span button{
+    width: 190px;
+    height: 50px;
+    background-color: red;
+    color: white;
+    border: none;
+    font-size: 20px;
+    font-family: 600;
+    border-radius: 2px;
+}
+.container span input{
+    height:51px ;
+    width:400px ;
+    background: transparent;
+    color:white;
+    padding-left: 20px;
+    margin-top: 20px;
+    border: none;
+    border: 1px solid rgba(128,128,128,0.7);
+    border-radius: 2px;
+    background-color: rgba(22,22,22,0.7);
+}
+.container input::placeholder{
+    color: white;
+    font-weight: 600;
+    
+}
+.tvsection{
+    display: flex;
+    width: 100%;
+    height: auto;
+    background-color: black;
+    padding-inline: 50px;
+    padding-block: 50px;
+    align-items: center;
+
+}
+.leftsection{
+    width: 50%;
+    height: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.leftsection h1{
+    font-size: 60px;
+    
+}
+.leftsection h6{
+    font-size: 25px;
+}
+.rightsection {
+    width: 50%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+    
+}
+.rightsection img{
+    width: 100%;
+
+}
+.FAQ-section{
+    padding-block: 30px;
+    width: 100%;
+    height:1200px;
+    background-color: black;
+    color: white;
+    margin-bottom: 30px;
+    
+}
+.list-container{
+    width: 100%;
+    height: 50px;
+     display: flex; 
+    /* justify-content: center; */
+    align-items: center;
+    margin-top: 20px;
+   flex-direction: column;
+   margin-top: 30px;
+   
+} 
+.FAQ-section h1{
+    text-align: center;
+    font-size: 70px;
+}
+.faqbox{
+
+width: 1200px;
+height: 80px;
+background-color: rgb(57, 56, 56);
+display: flex;
+justify-content: space-between;
+/* align-items: center; */
+padding-inline: 20px;
+font-size: 25px;
+margin-top: 20px;
+/* flex-direction: column; */
+padding-block: 25px;
+
+}
+
+hr{
+border: 2px solid white ;
+}
+.footer{
+    height: 400px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+.footer p{
+    font-size: 20px;
+    padding-block: 20px;
+    padding-left: 100px;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    /* align-items: center; */
+    /* padding: 50px; */
+    
+    /* text-decoration: none; */
+}
+ .footer-content ul{
+    list-style: none;
+    margin-bottom: 10px;
+
+} 
+.footer-content ul li {
+    margin-top: 10px;
+    
+}
+.footer-content ul li a{
+    color: white;
+}
+.footer span{
+    display: flex;
+margin-top: 40px;  
+
+}
+.footer span button{
+    width: 125px;
+    height: 32px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid white;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.footer .para{
+    padding-left: 0px;
+}
+    
+#container2 span{
+padding: 0;
+}
+
+#container2 p{
+    padding: 0;
+}
+#container2 input{
+    margin: 10px;
+}
+@media (max-width:709px){
+    .container h1{
+        font-size: 35px;
+    }
+    .container span{
+        padding-right: 0;
+    }
+    .tvsection{
+        flex-direction: column;
+        justify-content: center;
+
+    }
+    .rightsection img{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media ( max-width:588px){
+    .container span{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+    nav img{
+        width: 150px;
+        
+    }
+    #englishbtn{display: none;
+
+    }
+}
+@media(max-width:502px){
+    .container h1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-left: 0;
+        font-size: 30px;
+    }
+
+    .container h6{
+        padding-left: 0;
+        text-align: center;
+    }
+}
+@media(max-width:412px){
+    .container h1{
+        font-size: 25px;
+    
+    }
+    .container span input{
+        width: 330px;
+    }
+}
